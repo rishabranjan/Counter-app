@@ -1,0 +1,31 @@
+.App{
+  background: grey;
+  height: 3em;
+  /* text-align: center */
+  font-family: monospace; 
+}
+
+.App > header{
+  font-size: 2em;
+}
+
+.left{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 1em;
+  width: 500px;
+}
+
+.right{
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 2em;
+}
+
+.counters{
+  margin: 1em ;
+  text-align: center;
+  font-size: 2em;
+}
