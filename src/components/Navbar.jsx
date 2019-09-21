@@ -6,7 +6,7 @@ const Navbar = props => {
       <nav className="navbar navbar-dark bg-dark">
         <span className="navbar-brand mb-0 h1">Total number of items</span>
         <span className="navbar-brand mb-0 h1">
-          Total <span>{props}</span>
+          Total <span>{props.length.length}</span>
         </span>
       </nav>
     </React.Fragment>
